@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Style for the entire body of the document */
+body {
+    font-family: Arial, sans-serif; /* Sets the font style */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    margin: 0; /* Removes default margin */
+    background: linear-gradient(to right, #083975, #5d5959, #fcfcfc);
+
+}
+
+
+/* Style for the container holding the content */
+.container {
+    text-align: center; /* Centers text inside the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Sets a semi-transparent white background for the container */
+    padding: 20px; /* Adds padding inside the container */
+    border-radius: 8px; /* Rounds the corners of the container */
+    box-shadow: 0 0 10px rgba(51, 1, 252, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* Style for the fact text */
+.fact {
+    margin: 20px 0; /* Adds vertical margin around the fact */
+    font-size: 1.2em; /* Increases the font size */
+    opacity: 0; /* Initially hides the fact with opacity */
+    transition: opacity 1s ease-in-out; /* Smooth transition for opacity changes */
+}
+
+/* Style for showing the fact */
+.fact.show {
+    opacity: 1; /* Makes the fact fully visible */
+}
+
+/* Style for the button */
+button {
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-size: 1em; /* Sets the font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    background-color: #007BFF; /* Sets the button background color */
+    color: white; /* Sets the text color to white */
+    transition: background-color 0.3s; /* Smooth transition for background color changes */
+}
+
+/* Style for button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darkens the button color on hover */
+}
